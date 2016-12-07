@@ -6,13 +6,20 @@ object main {
 
   def main(args: Array[String]): Unit = {
 
-    val xs = uniform("eric","lippert")
-    println(xs.take(1000000).groupBy(n => n).map(xn => (xn._1, xn._2.size)))
+    val xs = uniform(0,1,1,1)
+    //println(xs.take(1000000).groupBy(n => n).map(xn => (xn._1, xn._2.size)))
 
+    val zs = uniform((0,1), (1,2), (1,1)).take(100000)
+    println(zs.groupBy(xp=>xp._1).map(xn => (xn._1, xn._2.map(xn=> xn._2).sum)))
 
-    val ys = metropolis(xs)(n => if(n == "lippert") 7 else 3)
-    println(ys.take(1000000).groupBy(n => n).map(xn => (xn._1, xn._2.size)))
+    val ws = metropolis2(zs)(x => if(x==0) 3 else 1)
+    println(ws.groupBy(xp=>xp._1).map(xn => (xn._1, xn._2.map(xn=> xn._2).sum)))
 
+    val ys = metropolis(xs)(n => 1)
+    //println(ys.take(1000000).groupBy(n => n).map(xn => (xn._1, xn._2.size)))
+    // incremental groupby with Dirichlet process/distribution until confidence close enough
+    // (normalization)
+    // (x,p) --> add p to alpa for x
   }
 }
 
@@ -65,7 +72,11 @@ object Probabilities {
   }
 
   def metropolis[A](prior: Iterable[A])(likelyhood: A=>Double): Iterable[A] = {
-    scanl(prior)((o, n) => if(Random.nextDouble() < likelyhood(n) / likelyhood(o)) n else o)
+    scanl(prior)((o, n) => if(Random.nextDouble() <= likelyhood(n) / likelyhood(o)) n else o) // <?
   }
 
+  def metropolis2[A](prior: Iterable[(A, Int)])(likelyhood: A=>Int): Iterable[(A,Int)] = {
+    prior.map(xn => (xn._1, likelyhood(xn._1)*xn._2))
+  }
+  // http://www.ics.uci.edu/~johnsong/papers/Chib%20and%20Greenberg%20-%20Understanding%20the%20Metropolis-Hastings%20Algorithm.pdf
 }
