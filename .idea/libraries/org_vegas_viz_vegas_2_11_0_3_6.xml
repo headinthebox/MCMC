@@ -1,0 +1,42 @@
+<component name="libraryTable">
+  <library name="org.vegas-viz:vegas_2.11:0.3.6" type="repository">
+    <properties maven-id="org.vegas-viz:vegas_2.11:0.3.6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vegas-viz/vegas_2.11/0.3.6/vegas_2.11-0.3.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/vegas-viz/vegas-macros_2.11/0.3.6/vegas-macros_2.11-0.3.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/julien-truffaut/monocle-core_2.11/1.1.0/monocle-core_2.11-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalaz/scalaz-core_2.11/7.1.1/scalaz-core_2.11-7.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scoverage/scalac-scoverage-runtime_2.11/1.1.0/scalac-scoverage-runtime_2.11-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scoverage/scalac-scoverage-plugin_2.11/1.1.0/scalac-scoverage-plugin_2.11-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/circe/circe-core_2.11/0.4.1/circe-core_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/circe/circe-numbers_2.11/0.4.1/circe-numbers_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/cats-core_2.11/0.4.1/cats-core_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/cats-macros_2.11/0.4.1/cats-macros_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/algebra_2.11/0.3.1/algebra_2.11-0.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/algebra-std_2.11/0.3.1/algebra-std_2.11-0.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/circe/circe-generic_2.11/0.4.1/circe-generic_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/circe/circe-parser_2.11/0.4.1/circe-parser_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/circe/circe-jawn_2.11/0.4.1/circe-jawn_2.11-0.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/spire-math/jawn-parser_2.11/0.8.4/jawn-parser_2.11-0.8.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/julien-truffaut/monocle-macro_2.11/1.1.0/monocle-macro_2.11-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalafx/scalafx_2.11/8.0.92-R10/scalafx_2.11-8.0.92-R10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bower/vega-lite/1.2.0/vega-lite-1.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bower/vega/2.6.3/vega-2.6.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bower/d3/3.5.17/d3-3.5.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vegas-viz/vegas_2.11/0.3.6/vegas_2.11-0.3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/vegas-viz/vegas_2.11/0.3.6/vegas_2.11-0.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
