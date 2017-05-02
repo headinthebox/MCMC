@@ -1,7 +1,7 @@
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.chart.XYChart.{Data, Series}
-import javafx.scene.chart.{NumberAxis, ScatterChart, XYChart}
+import javafx.scene.chart.{LineChart, NumberAxis, ScatterChart, XYChart}
 import javafx.stage.Stage
 
 import scala.util.Random
@@ -35,7 +35,7 @@ class Plot extends Application {
 
     xys.forall(series.getData.add(_))
 
-    val sc = new ScatterChart(new NumberAxis(-0.5, 2.5, 0.5), new NumberAxis(0, 10, 1))
+    val sc = new LineChart(new NumberAxis(-0.5, 2.5, 0.5), new NumberAxis(0, 10, 1))
 
     sc.getData.setAll(series)
 
